@@ -8,57 +8,59 @@ msgstr ""
 "Project-Id-Version: Weblate 3.0\n"
 "Report-Msgid-Bugs-To: weblate@lists.cihar.com\n"
 "POT-Creation-Date: 2018-06-09 14:08+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2020-12-30 14:29+0000\n"
+"Last-Translator: J. Lavoie <j.lavoie@net-c.ca>\n"
+"Language-Team: French <https://hosted.weblate.org/projects/lxgtestu/"
+"hello-world-copy/fr/>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.4.1-dev\n"
 
 #: weblate/templates/translation.html:45 weblate/trans/forms.py:1404
 msgid "Files"
-msgstr ""
+msgstr "Fichiers"
 
 #: weblate/templates/translation.html:58 weblate/templates/translation.html:207
 #: weblate/trans/models/change.py:205
 msgid "Automatic translation"
-msgstr ""
+msgstr "Traduction automatique"
 
 #: weblate/templates/translation.html:64 weblate/templates/translation.html:263
 msgid "Add new translation string"
-msgstr ""
+msgstr "Ajouter une nouvelle chaîne de traduction"
 
 #: weblate/templates/translation.html:108 weblate/templates/widgets.html:56
 #: weblate/templates/widgets.html:64 weblate/templates/widgets.html:71
 #: weblate/templates/widgets.html:79
 msgid "Translation status"
-msgstr ""
+msgstr "Statut de la traduction"
 
 #: weblate/templates/translation.html:149
 #, python-format
 msgid "%(count)s word"
 msgid_plural "%(count)s words"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(count)s mot"
+msgstr[1] "%(count)s mots"
 
 #: weblate/templates/translation.html:156
 msgid "Other components"
-msgstr ""
+msgstr "Autres composants"
 
 #: weblate/templates/translation.html:175
 #: weblate/templates/unit-details.html:26
 msgid "Translation file"
-msgstr ""
+msgstr "Fichier de traduction"
 
 #: weblate/templates/translation.html:179
 msgid "Download"
-msgstr ""
+msgstr "Télécharger"
 
 #: weblate/templates/translation.html:196
 msgid "Browse all translation changes"
-msgstr ""
+msgstr "Parcourir toutes les modifications de traduction"
 
 #: weblate/templates/translation.html:211
 msgid ""
@@ -67,6 +69,11 @@ msgid ""
 "to a different branch, to fix inconsistent translations or to translate a "
 "new component using translation memory."
 msgstr ""
+"La traduction automatique prend les traductions existantes dans ce projet et "
+"les applique au composant actuel. Elle peut être utilisée pour pousser des "
+"traductions vers une autre branche, pour corriger des traductions "
+"incohérentes ou pour traduire un nouveau composant à l'aide de la mémoire de "
+"traduction."
 
 #: weblate/templates/translation.html:212
 msgid ""
@@ -74,73 +81,83 @@ msgid ""
 "translation engines to get the best possible translations and applies them "
 "in this project."
 msgstr ""
+"La traduction automatique utilise des moteurs de traduction automatique "
+"actifs pour obtenir les meilleures traductions possibles et les applique "
+"dans ce projet."
 
 #: weblate/templates/translation.html:265
 msgid ""
 "You can add new translation string here, it will automatically appear in all "
 "translations."
 msgstr ""
+"Vous pouvez ajouter une nouvelle chaîne de traduction ici ; elle apparaîtra "
+"automatiquement dans toutes les traductions."
 
 #: weblate/templates/translation.html:284
 msgid ""
 "The uploaded file will be merged with the current translation. In case you "
 "want to overwrite already translated strings, don't forget to enable it."
 msgstr ""
+"Le fichier téléversé sera fusionné avec la traduction actuelle. Si vous "
+"souhaitez écraser des chaînes déjà traduites, n'oubliez pas de l'activer."
 
 #: weblate/templates/translation.html:286
 msgid "The uploaded file will be merged with the current translation."
-msgstr ""
+msgstr "Le fichier téléversé sera fusionné avec la traduction actuelle."
 
 #: weblate/templates/translation.html:312
 msgid ""
 "The fulltext search might not work properly as the fulltext index for this "
 "translation is not yet up to date."
 msgstr ""
+"La recherche de texte intégral peut ne pas fonctionner correctement car "
+"l'index de texte intégral de cette traduction n'est pas encore à jour."
 
 #: weblate/templates/translation.html:334
 #: weblate/templates/translation.html:381
 msgid "Review"
-msgstr ""
+msgstr "Révision"
 
 #: weblate/templates/translation.html:336
 msgid "Review translations touched by other users."
-msgstr ""
+msgstr "Passez en revue les traductions modifiées par d'autres utilisateurs."
 
 #: weblate/templates/translation.html:340
 msgid "Start review"
-msgstr ""
+msgstr "Commencer la révision"
 
 #: weblate/templates/translation.html:362
 msgid "Percent"
-msgstr ""
+msgstr "Pourcent"
 
 #: weblate/templates/translation.html:369
 msgid "Total"
-msgstr ""
+msgstr "Total"
 
 #: weblate/templates/translation.html:387
 msgid "Failing check"
-msgstr ""
+msgstr "Échec du contrôle"
 
 #: weblate/templates/translation.html:402
 msgid "Last activity"
-msgstr ""
+msgstr "Dernière activité"
 
 #: weblate/templates/translation.html:406
 msgid "Last change"
-msgstr ""
+msgstr "Dernière modification"
 
 #: weblate/templates/translation.html:410
 msgid "Last author"
-msgstr ""
+msgstr "Dernier auteur"
 
 #: weblate/accounts/forms.py:450
 #, python-format
 msgctxt ""
 "Question for a mathematics-based CAPTCHA, the %s is an arithmetic problem"
 msgid "What is %s?"
-msgstr ""
+msgstr "Combien font %s ?"
 
 #: weblate/checks/source.py:54
 msgid "The string uses three dots (...) instead of an ellipsis character (…)"
 msgstr ""
+"La chaîne utilise trois points (...) au lieu d'un caractère d'ellipse (…)"
